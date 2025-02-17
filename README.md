@@ -2,7 +2,7 @@
 
 What if I told you there's an iOS app on the market that tells you if it's a **hotdog** or **not a hotdog**?
 
-Inspired by the HBO show *Silicon Valley*.
+(Inspired by the HBO show *Silicon Valley*)
 
 ## 📸 Screenshot
 ![Hot Dog](https://github.com/itsmeterrylin/NotHotDog/blob/main/NotHotDog.png)
