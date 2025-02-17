@@ -1,6 +1,15 @@
-# Not Hotdog 🍔🌭
+# Not Hotdog 🌭
 
-What if I told you there's an iOS app that can tell if you have a hotdog or not a hotdog?
+What if I told you there's an iOS app using CoreML to detect if your image is a **hotdog** or **not a hotdog**?
+
+Inspired by the HBO show *Silicon Valley*.
 
 ## 📸 Screenshot
 ![Hot Dog](https://github.com/itsmeterrylin/NotHotDog/blob/main/NotHotDog.png)
+
+
+## 🚀 About  
+🧠 Powered by **Apple CoreML** for fast, on-device AI processing  
+📴 Works **offline**—no internet required  
+🌭 Instantly classifies images as **Hot Dog** or **Not a Hot Dog**  
+🍎 Built with **Swift/iOS**, with help from **GPT-4o**  
