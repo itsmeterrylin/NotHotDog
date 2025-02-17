@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A2D8E72C2D63AB4E00A9A0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D8E70C2D63AB4C00A9A0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D8E7132D63AB4C00A9A0A7;
+			remoteInfo = "Not Hotdog";
+		};
+		A2D8E7362D63AB4E00A9A0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D8E70C2D63AB4C00A9A0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D8E7132D63AB4C00A9A0A7;
+			remoteInfo = "Not Hotdog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D8E7142D63AB4C00A9A0A7 /* Not Hotdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Not Hotdog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D8E72B2D63AB4E00A9A0A7 /* Not HotdogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Not HotdogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D8E7352D63AB4E00A9A0A7 /* Not HotdogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Not HotdogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A2D8E73D2D63AB4E00A9A0A7 /* Exceptions for "Not Hotdog" folder in "Not Hotdog" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A2D8E7132D63AB4C00A9A0A7 /* Not Hotdog */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2D8E7162D63AB4C00A9A0A7 /* Not Hotdog */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A2D8E73D2D63AB4E00A9A0A7 /* Exceptions for "Not Hotdog" folder in "Not Hotdog" target */,
+			);
+			path = "Not Hotdog";
+			sourceTree = "<group>";
+		};
+		A2D8E72E2D63AB4E00A9A0A7 /* Not HotdogTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Not HotdogTests";
+			sourceTree = "<group>";
+		};
+		A2D8E7382D63AB4E00A9A0A7 /* Not HotdogUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Not HotdogUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D8E7112D63AB4C00A9A0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8E7282D63AB4E00A9A0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8E7322D63AB4E00A9A0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D8E70B2D63AB4C00A9A0A7 = {
+			isa = PBXGroup;
+			children = (
+				A2D8E7162D63AB4C00A9A0A7 /* Not Hotdog */,
+				A2D8E72E2D63AB4E00A9A0A7 /* Not HotdogTests */,
+				A2D8E7382D63AB4E00A9A0A7 /* Not HotdogUITests */,
+				A2D8E7152D63AB4C00A9A0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D8E7152D63AB4C00A9A0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8E7142D63AB4C00A9A0A7 /* Not Hotdog.app */,
+				A2D8E72B2D63AB4E00A9A0A7 /* Not HotdogTests.xctest */,
+				A2D8E7352D63AB4E00A9A0A7 /* Not HotdogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D8E7132D63AB4C00A9A0A7 /* Not Hotdog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D8E73E2D63AB4E00A9A0A7 /* Build configuration list for PBXNativeTarget "Not Hotdog" */;
+			buildPhases = (
+				A2D8E7102D63AB4C00A9A0A7 /* Sources */,
+				A2D8E7112D63AB4C00A9A0A7 /* Frameworks */,
+				A2D8E7122D63AB4C00A9A0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2D8E7162D63AB4C00A9A0A7 /* Not Hotdog */,
+			);
+			name = "Not Hotdog";
+			packageProductDependencies = (
+			);
+			productName = "Not Hotdog";
+			productReference = A2D8E7142D63AB4C00A9A0A7 /* Not Hotdog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D8E72A2D63AB4E00A9A0A7 /* Not HotdogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D8E7432D63AB4E00A9A0A7 /* Build configuration list for PBXNativeTarget "Not HotdogTests" */;
+			buildPhases = (
+				A2D8E7272D63AB4E00A9A0A7 /* Sources */,
+				A2D8E7282D63AB4E00A9A0A7 /* Frameworks */,
+				A2D8E7292D63AB4E00A9A0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D8E72D2D63AB4E00A9A0A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2D8E72E2D63AB4E00A9A0A7 /* Not HotdogTests */,
+			);
+			name = "Not HotdogTests";
+			packageProductDependencies = (
+			);
+			productName = "Not HotdogTests";
+			productReference = A2D8E72B2D63AB4E00A9A0A7 /* Not HotdogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2D8E7342D63AB4E00A9A0A7 /* Not HotdogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D8E7462D63AB4E00A9A0A7 /* Build configuration list for PBXNativeTarget "Not HotdogUITests" */;
+			buildPhases = (
+				A2D8E7312D63AB4E00A9A0A7 /* Sources */,
+				A2D8E7322D63AB4E00A9A0A7 /* Frameworks */,
+				A2D8E7332D63AB4E00A9A0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D8E7372D63AB4E00A9A0A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2D8E7382D63AB4E00A9A0A7 /* Not HotdogUITests */,
+			);
+			name = "Not HotdogUITests";
+			packageProductDependencies = (
+			);
+			productName = "Not HotdogUITests";
+			productReference = A2D8E7352D63AB4E00A9A0A7 /* Not HotdogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D8E70C2D63AB4C00A9A0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A2D8E7132D63AB4C00A9A0A7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A2D8E72A2D63AB4E00A9A0A7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A2D8E7132D63AB4C00A9A0A7;
+					};
+					A2D8E7342D63AB4E00A9A0A7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A2D8E7132D63AB4C00A9A0A7;
+					};
+				};
+			};
+			buildConfigurationList = A2D8E70F2D63AB4C00A9A0A7 /* Build configuration list for PBXProject "Not Hotdog" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D8E70B2D63AB4C00A9A0A7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2D8E7152D63AB4C00A9A0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D8E7132D63AB4C00A9A0A7 /* Not Hotdog */,
+				A2D8E72A2D63AB4E00A9A0A7 /* Not HotdogTests */,
+				A2D8E7342D63AB4E00A9A0A7 /* Not HotdogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D8E7122D63AB4C00A9A0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8E7292D63AB4E00A9A0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8E7332D63AB4E00A9A0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D8E7102D63AB4C00A9A0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8E7272D63AB4E00A9A0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8E7312D63AB4E00A9A0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D8E72D2D63AB4E00A9A0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D8E7132D63AB4C00A9A0A7 /* Not Hotdog */;
+			targetProxy = A2D8E72C2D63AB4E00A9A0A7 /* PBXContainerItemProxy */;
+		};
+		A2D8E7372D63AB4E00A9A0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D8E7132D63AB4C00A9A0A7 /* Not Hotdog */;
+			targetProxy = A2D8E7362D63AB4E00A9A0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2D8E73F2D63AB4E00A9A0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Not Hotdog/Not_Hotdog.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Not Hotdog/Preview Content\"";
+				DEVELOPMENT_TEAM = BU8YBMLH38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Not Hotdog/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Not-Hotdog.Not-Hotdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D8E7402D63AB4E00A9A0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Not Hotdog/Not_Hotdog.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Not Hotdog/Preview Content\"";
+				DEVELOPMENT_TEAM = BU8YBMLH38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Not Hotdog/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Not-Hotdog.Not-Hotdog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2D8E7412D63AB4E00A9A0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D8E7422D63AB4E00A9A0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D8E7442D63AB4E00A9A0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BU8YBMLH38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Not-Hotdog.Not-HotdogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Not Hotdog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Not Hotdog";
+			};
+			name = Debug;
+		};
+		A2D8E7452D63AB4E00A9A0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BU8YBMLH38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Not-Hotdog.Not-HotdogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Not Hotdog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Not Hotdog";
+			};
+			name = Release;
+		};
+		A2D8E7472D63AB4E00A9A0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BU8YBMLH38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Not-Hotdog.Not-HotdogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Not Hotdog";
+			};
+			name = Debug;
+		};
+		A2D8E7482D63AB4E00A9A0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BU8YBMLH38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Not-Hotdog.Not-HotdogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Not Hotdog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D8E70F2D63AB4C00A9A0A7 /* Build configuration list for PBXProject "Not Hotdog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8E7412D63AB4E00A9A0A7 /* Debug */,
+				A2D8E7422D63AB4E00A9A0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D8E73E2D63AB4E00A9A0A7 /* Build configuration list for PBXNativeTarget "Not Hotdog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8E73F2D63AB4E00A9A0A7 /* Debug */,
+				A2D8E7402D63AB4E00A9A0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D8E7432D63AB4E00A9A0A7 /* Build configuration list for PBXNativeTarget "Not HotdogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8E7442D63AB4E00A9A0A7 /* Debug */,
+				A2D8E7452D63AB4E00A9A0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D8E7462D63AB4E00A9A0A7 /* Build configuration list for PBXNativeTarget "Not HotdogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8E7472D63AB4E00A9A0A7 /* Debug */,
+				A2D8E7482D63AB4E00A9A0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D8E70C2D63AB4C00A9A0A7 /* Project object */;
+}
