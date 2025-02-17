@@ -1,6 +1,6 @@
 # Not Hotdog 🌭 (Last Updated: Feb 17, 2025)
 
-What if I told you there's an iOS app on the market that tells you if it's a **hotdog** or **not a hotdog**?
+What if I told you there's an iOS app on the market that tells you if a picture is a **hotdog** or **not a hotdog**?
 
 (Inspired by the HBO show *Silicon Valley*)
 
