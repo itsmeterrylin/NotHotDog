@@ -1,86 +1,107 @@
-//
-//  ContentView.swift
-//  Not Hotdog
-//
-//  Created by Terry Lin on 2/17/25.
-//
-
 import SwiftUI
-import CoreData
+import AVFoundation
 
-struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
+extension Color {
+    init(hex: String) {
+        let scanner = Scanner(string: hex)
+        var rgbValue: UInt64 = 0
+        scanner.scanHexInt64(&rgbValue)
 
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
+        let red = Double((rgbValue >> 16) & 0xFF) / 255.0
+        let green = Double((rgbValue >> 8) & 0xFF) / 255.0
+        let blue = Double(rgbValue & 0xFF) / 255.0
 
-    var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
+        self.init(red: red, green: green, blue: blue)
     }
 }
 
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
 
-#Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+struct ContentView: View {
+    @StateObject private var cameraModel = CameraModel()
+    
+    var body: some View {
+        ZStack {
+            if let capturedImage = cameraModel.capturedImage {
+                ZStack {
+                    Image(uiImage: capturedImage)
+                        .resizable()
+                        .scaledToFill()
+                        .edgesIgnoringSafeArea(.all)
+                    
+                    if let result = cameraModel.classificationResult {
+                        VStack {
+                            Spacer().frame(height: 100)
+                            
+                            GeometryReader { geometry in
+                                Image(result)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.top, geometry.safeAreaInsets.top + -100)
+                                    .edgesIgnoringSafeArea(.horizontal)
+                            }
+                            .onAppear {
+                                print("🖼 Classification result: \(result)")
+                            }
+                            
+                            Spacer()
+                            
+                            Button("Try Again") {
+                                print("🔄 Resetting session")
+                                cameraModel.capturedImage = nil
+                                cameraModel.classificationResult = nil
+                                cameraModel.isProcessing = false
+                                cameraModel.startSession()
+                                print("✅ Reset complete")
+                            }
+                            .padding()
+                            .background(Color(hex: "23D3FC"))
+                            .foregroundColor(.white)
+                            .clipShape(Capsule())
+                        }
+                        .padding(.bottom, 50)
+                    } else {
+                        // Show analyzing overlay while waiting for AI processing
+                        Text("Analyzing with AI...")
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.black.opacity(0.7))
+                            .cornerRadius(8)
+                    }
+                }
+            } else {
+                ZStack {
+                    CameraView(cameraModel: cameraModel)
+                        .edgesIgnoringSafeArea(.all)
+                        .onAppear {
+                            print("▶️ Starting camera session automatically...")
+                            cameraModel.startSession()
+                        }
+
+                    CameraOverlayView(cameraModel: cameraModel) // 🔥 Ensure it’s on top but non-blocking
+                }
+                
+                VStack {
+                    Spacer()
+                    
+                    if cameraModel.isProcessing {
+                        Image("analyzing_with_ai")
+                            .resizable()
+                            .scaledToFill()
+                            .edgesIgnoringSafeArea(.all)
+                    } else {
+                        Button(action: {
+                            cameraModel.capturePhoto()
+                        }) {
+                            Circle()
+                                .fill(Color.red)
+                                .frame(width: 90, height: 90)
+                                .overlay(Circle().stroke(Color.black, lineWidth: 4))
+                        }
+                        .padding(.bottom, 50)
+                    }
+                }
+            }
+        }
+    }
 }

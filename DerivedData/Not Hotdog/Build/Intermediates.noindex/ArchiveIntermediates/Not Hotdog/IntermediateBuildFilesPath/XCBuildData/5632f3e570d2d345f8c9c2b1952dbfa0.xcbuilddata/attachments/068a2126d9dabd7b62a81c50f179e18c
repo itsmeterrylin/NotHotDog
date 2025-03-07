@@ -1,0 +1,70 @@
+{
+  "" : {
+    "const-values" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not Hotdog-master.swiftconstvalues",
+    "dependencies" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not Hotdog-master.d",
+    "diagnostics" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not Hotdog-master.dia",
+    "emit-module-dependencies" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not Hotdog-master-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not Hotdog-master-emit-module.dia",
+    "swift-dependencies" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not Hotdog-master.swiftdeps"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/DerivedSources/CoreDataGenerated/Not_Hotdog/Item+CoreDataClass.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Item+CoreDataClass.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Item+CoreDataClass.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Item+CoreDataClass.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/DerivedSources/CoreDataGenerated/Not_Hotdog/Item+CoreDataProperties.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Item+CoreDataProperties.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Item+CoreDataProperties.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Item+CoreDataProperties.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/DerivedSources/CoreDataGenerated/Not_Hotdog/Not_Hotdog+CoreDataModel.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not_Hotdog+CoreDataModel.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not_Hotdog+CoreDataModel.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not_Hotdog+CoreDataModel.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/DerivedSources/CoreMLGenerated/notHotdog/notHotdog.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/notHotdog.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/notHotdog.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/notHotdog.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/CameraModel.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/CameraModel.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/CameraModel.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/CameraModel.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/CameraView.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/CameraView.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/CameraView.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/CameraView.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/ContentView.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/LoadingView.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/LoadingView.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/LoadingView.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/LoadingView.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Models/notHotdogClass.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/notHotdogClass.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/notHotdogClass.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/notHotdogClass.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Not_HotdogApp.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not_HotdogApp.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not_HotdogApp.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Not_HotdogApp.o"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Persistence.swift" : {
+    "index-unit-output-path" : "/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Persistence.o",
+    "llvm-bc" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Persistence.bc",
+    "object" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath/Not Hotdog.build/Release-iphoneos/Not Hotdog.build/Objects-normal/arm64/Persistence.o"
+  }
+}

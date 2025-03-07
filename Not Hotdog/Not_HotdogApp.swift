@@ -8,13 +8,10 @@
 import SwiftUI
 
 @main
-struct Not_HotdogApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct NotHotdogApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            LoadingView() // Start with the loading screen
         }
     }
 }

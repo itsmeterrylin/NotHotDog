@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'Not HotdogUITests' in project 'Not Hotdog' (no dependencies)
+Target 'Not HotdogUITests' in project 'Not Hotdog'
+➜ Explicit dependency on target 'Not Hotdog' in project 'Not Hotdog'
+Target 'Not HotdogUITests' in project 'Not Hotdog'
+➜ Explicit dependency on target 'Not Hotdog' in project 'Not Hotdog'
+Target 'Not HotdogTests' in project 'Not Hotdog' (no dependencies)
+Target 'Not HotdogTests' in project 'Not Hotdog'
+➜ Explicit dependency on target 'Not Hotdog' in project 'Not Hotdog'
+Target 'Not HotdogTests' in project 'Not Hotdog'
+➜ Explicit dependency on target 'Not Hotdog' in project 'Not Hotdog'
+Target 'Not Hotdog' in project 'Not Hotdog' (no dependencies)
+Target 'Not Hotdog' in project 'Not Hotdog' (no dependencies)

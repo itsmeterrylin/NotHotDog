@@ -1,0 +1,81 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "3fe46575ba419179bc5b45d9a8018b9bdb48249387f9d730518ddcf7ca9f5002"
+    }
+  ],
+  "containerPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Products",
+      "derivedDataPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData",
+      "indexDataStoreFolderPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/InstallationBuildProductsLocation/OnDemandResources",
+          "ASSETCATALOG_COMPILER_FLATTENED_APP_ICON_PATH" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath/ProductIcon.png",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_SIGNATURE_AGGREGATION" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/IntermediateBuildFilesPath",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "SHARED_PRECOMPS_DIR" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/PrecompiledHeaders",
+          "SIGNATURE_METADATA_FOLDER_PATH" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath/Signatures",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex/ArchiveIntermediates/Not Hotdog/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

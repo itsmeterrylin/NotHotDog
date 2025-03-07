@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex/Not Hotdog.build/Debug-iphonesimulator/Not HotdogUITests.build/Objects-normal/arm64/Not HotdogUITests-master.d",
+    "diagnostics" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex/Not Hotdog.build/Debug-iphonesimulator/Not HotdogUITests.build/Objects-normal/arm64/Not HotdogUITests-master.dia",
+    "emit-module-dependencies" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex/Not Hotdog.build/Debug-iphonesimulator/Not HotdogUITests.build/Objects-normal/arm64/Not HotdogUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex/Not Hotdog.build/Debug-iphonesimulator/Not HotdogUITests.build/Objects-normal/arm64/Not HotdogUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex/Not Hotdog.build/Debug-iphonesimulator/Not HotdogUITests.build/Objects-normal/arm64/Not HotdogUITests-master.swiftdeps"
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not HotdogUITests/Not_HotdogUITests.swift" : {
+
+  },
+  "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not HotdogUITests/Not_HotdogUITestsLaunchTests.swift" : {
+
+  }
+}

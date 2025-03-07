@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "89D449AED078BD218E511CCEB3537FEEC443A514",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "89D449AED078BD218E511CCEB3537FEEC443A514" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "17EF4B86-FD29-46F4-8277-663618AF00DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "89D449AED078BD218E511CCEB3537FEEC443A514" : "Not%20Hotdog\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Not Hotdog",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Not Hotdog.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/itsmeterrylin\/NotHotDog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89D449AED078BD218E511CCEB3537FEEC443A514"
+    }
+  ]
+}

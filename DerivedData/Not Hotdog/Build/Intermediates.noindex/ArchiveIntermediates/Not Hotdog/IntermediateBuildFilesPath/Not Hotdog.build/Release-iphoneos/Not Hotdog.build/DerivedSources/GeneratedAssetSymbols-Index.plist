@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoadingView</string>
+			<key>relativePath</key>
+			<string>./LoadingView.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loadingView</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAnalyzingWithAi</string>
+			<key>relativePath</key>
+			<string>./analyzing_with_ai.imageset</string>
+			<key>swiftSymbol</key>
+			<string>analyzingWithAi</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameHotdog</string>
+			<key>relativePath</key>
+			<string>./hotdog.imageset</string>
+			<key>swiftSymbol</key>
+			<string>hotdog</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNotHotdog</string>
+			<key>relativePath</key>
+			<string>./not_hotdog.imageset</string>
+			<key>swiftSymbol</key>
+			<string>notHotdog</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

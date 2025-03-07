@@ -1,0 +1,62 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "3fe46575ba419179bc5b45d9a8018b9bdb48249387f9d730518ddcf7ca9f5002"
+    }
+  ],
+  "containerPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/Not Hotdog.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData",
+      "indexDataStoreFolderPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Build/Products",
+      "pchPath" : "/Volumes/4000 GB/Not a Hotdog/Not Hotdog/DerivedData/Not Hotdog/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
